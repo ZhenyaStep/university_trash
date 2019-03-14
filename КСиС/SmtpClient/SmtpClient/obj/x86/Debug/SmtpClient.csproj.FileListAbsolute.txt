@@ -1,0 +1,36 @@
+c:\documents and settings\123\Мои документы\Visual Studio 2008\Projects\SmtpClient\SmtpClient\bin\Debug\SmtpClient.exe
+c:\documents and settings\123\Мои документы\Visual Studio 2008\Projects\SmtpClient\SmtpClient\bin\Debug\SmtpClient.pdb
+c:\documents and settings\123\Мои документы\Visual Studio 2008\Projects\SmtpClient\SmtpClient\obj\x86\Debug\ResolveAssemblyReference.cache
+c:\documents and settings\123\Мои документы\Visual Studio 2008\Projects\SmtpClient\SmtpClient\obj\x86\Debug\SmtpClient.MainForm.resources
+c:\documents and settings\123\Мои документы\Visual Studio 2008\Projects\SmtpClient\SmtpClient\obj\x86\Debug\SmtpClient.Properties.Resources.resources
+c:\documents and settings\123\Мои документы\Visual Studio 2008\Projects\SmtpClient\SmtpClient\obj\x86\Debug\GenerateResource.read.1.tlog
+c:\documents and settings\123\Мои документы\Visual Studio 2008\Projects\SmtpClient\SmtpClient\obj\x86\Debug\GenerateResource.write.1.tlog
+c:\documents and settings\123\Мои документы\Visual Studio 2008\Projects\SmtpClient\SmtpClient\obj\x86\Debug\SmtpClient.exe
+c:\documents and settings\123\Мои документы\Visual Studio 2008\Projects\SmtpClient\SmtpClient\obj\x86\Debug\SmtpClient.pdb
+I:\КСиС\SmtpClient\SmtpClient\obj\x86\Debug\SmtpClient.exe
+I:\КСиС\SmtpClient\SmtpClient\obj\x86\Debug\SmtpClient.pdb
+I:\КСиС\SmtpClient\SmtpClient\bin\Debug\SmtpClient.exe
+I:\КСиС\SmtpClient\SmtpClient\bin\Debug\SmtpClient.pdb
+I:\КСиС\SmtpClient\SmtpClient\obj\x86\Debug\ResolveAssemblyReference.cache
+I:\КСиС\SmtpClient\SmtpClient\obj\x86\Debug\SmtpClient.MainForm.resources
+I:\КСиС\SmtpClient\SmtpClient\obj\x86\Debug\SmtpClient.Properties.Resources.resources
+I:\КСиС\SmtpClient\SmtpClient\obj\x86\Debug\GenerateResource.read.1.tlog
+I:\КСиС\SmtpClient\SmtpClient\obj\x86\Debug\GenerateResource.write.1.tlog
+D:\Рабочий стол\КСиС\l4\SmtpClient\SmtpClient\bin\Debug\SmtpClient.exe
+D:\Рабочий стол\КСиС\l4\SmtpClient\SmtpClient\bin\Debug\SmtpClient.pdb
+D:\Рабочий стол\КСиС\l4\SmtpClient\SmtpClient\obj\x86\Debug\SmtpClient.csprojResolveAssemblyReference.cache
+D:\Рабочий стол\КСиС\l4\SmtpClient\SmtpClient\obj\x86\Debug\SmtpClient.MainForm.resources
+D:\Рабочий стол\КСиС\l4\SmtpClient\SmtpClient\obj\x86\Debug\SmtpClient.Properties.Resources.resources
+D:\Рабочий стол\КСиС\l4\SmtpClient\SmtpClient\obj\x86\Debug\SmtpClient.csproj.GenerateResource.cache
+D:\Рабочий стол\КСиС\l4\SmtpClient\SmtpClient\obj\x86\Debug\SmtpClient.csproj.CoreCompileInputs.cache
+D:\Рабочий стол\КСиС\l4\SmtpClient\SmtpClient\obj\x86\Debug\SmtpClient.exe
+D:\Рабочий стол\КСиС\l4\SmtpClient\SmtpClient\obj\x86\Debug\SmtpClient.pdb
+C:\Users\zhenya\Desktop\SmtpClient\SmtpClient\bin\Debug\SmtpClient.exe
+C:\Users\zhenya\Desktop\SmtpClient\SmtpClient\bin\Debug\SmtpClient.pdb
+C:\Users\zhenya\Desktop\SmtpClient\SmtpClient\obj\x86\Debug\SmtpClient.csprojResolveAssemblyReference.cache
+C:\Users\zhenya\Desktop\SmtpClient\SmtpClient\obj\x86\Debug\SmtpClient.MainForm.resources
+C:\Users\zhenya\Desktop\SmtpClient\SmtpClient\obj\x86\Debug\SmtpClient.Properties.Resources.resources
+C:\Users\zhenya\Desktop\SmtpClient\SmtpClient\obj\x86\Debug\SmtpClient.csproj.GenerateResource.cache
+C:\Users\zhenya\Desktop\SmtpClient\SmtpClient\obj\x86\Debug\SmtpClient.csproj.CoreCompileInputs.cache
+C:\Users\zhenya\Desktop\SmtpClient\SmtpClient\obj\x86\Debug\SmtpClient.exe
+C:\Users\zhenya\Desktop\SmtpClient\SmtpClient\obj\x86\Debug\SmtpClient.pdb

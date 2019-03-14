@@ -1,0 +1,12 @@
+C:\Users\darya\Documents\Visual Studio 2012\Projects\RegEx\RegEx\bin\Debug\RegEx.exe.config
+C:\Users\darya\Documents\Visual Studio 2012\Projects\RegEx\RegEx\bin\Debug\RegEx.exe
+C:\Users\darya\Documents\Visual Studio 2012\Projects\RegEx\RegEx\bin\Debug\RegEx.pdb
+C:\Users\darya\Documents\Visual Studio 2012\Projects\RegEx\RegEx\obj\Debug\RegEx.csprojResolveAssemblyReference.cache
+C:\Users\darya\Documents\Visual Studio 2012\Projects\RegEx\RegEx\obj\Debug\RegEx.exe
+C:\Users\darya\Documents\Visual Studio 2012\Projects\RegEx\RegEx\obj\Debug\RegEx.pdb
+D:\ЛАБЫ СРООООООООООООЧНО\RegEx\RegEx\bin\Debug\RegEx.exe.config
+D:\ЛАБЫ СРООООООООООООЧНО\RegEx\RegEx\obj\Debug\RegEx.exe
+D:\ЛАБЫ СРООООООООООООЧНО\RegEx\RegEx\obj\Debug\RegEx.pdb
+D:\ЛАБЫ СРООООООООООООЧНО\RegEx\RegEx\bin\Debug\RegEx.exe
+D:\ЛАБЫ СРООООООООООООЧНО\RegEx\RegEx\bin\Debug\RegEx.pdb
+D:\ЛАБЫ СРООООООООООООЧНО\RegEx\RegEx\obj\Debug\RegEx.csprojResolveAssemblyReference.cache

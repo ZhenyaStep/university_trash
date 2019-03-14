@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html  lang="en">
+  <head>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous" >
+
+    <meta charset="utf-8">
+    <title>header</title>
+
+
+  </head> 
+  <body>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+
+
+    <style>
+
+
+    .image-1{
+
+    }
+
+
+.medi{
+    width: 400px;
+    height: 400px;
+     background-size: 100% 100%;
+    animation: turning 5s infinite;
+}
+
+
+    @keyframes turning{
+            0%{
+                background-image: url(http://bipbap.ru/wp-content/uploads/2017/05/VOLKI-krasivye-i-ochen-umnye-zhivotnye.jpg);    
+            }
+            33%{
+                 background-image: url(https://cdn.fishki.net/upload/post/2017/03/19/2245758/tn/07-cute-cat-wallpaper-hdcat-wallpaper.jpg);     
+            }
+            66%{
+                 background-image: url(http://bipbap.ru/wp-content/uploads/2017/05/VOLKI-krasivye-i-ochen-umnye-zhivotnye.jpg);
+            }
+            100%{
+                background-image: url(https://cdn.fishki.net/upload/post/2017/03/19/2245758/tn/07-cute-cat-wallpaper-hdcat-wallpaper.jpg);    
+            }
+       }
+       
+
+    </style>
+
+
+
+  <div class="medi">
+
+  </div>
+
+  </body> 
+</html>

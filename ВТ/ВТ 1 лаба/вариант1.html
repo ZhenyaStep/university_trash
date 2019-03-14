@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap-theme.min.css"> 
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script> 
+
+    <meta http-equiv="Content-Type" content="text/html";  charset="UTF-8">
+    <title>Title</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body>
+<link rel="stylesheet" href="font-awesome.min.css">
+<meta charset="utf-8">
+<style>
+    body{
+        margin: 0px;
+        padding: 0px;
+    }
+
+    #nav{
+        border-top: 3px solid green;
+        height: 72px;
+        color: #fff;
+        background: #34302d;
+    }
+
+    #nav-content{
+        
+    }
+
+    #mainPage-Logo{
+        background: url(http://spring.io/img/spring-logo-3b6f842fa77c3bea3bac17dbce36a101.png) -1px 0px no-repeat;;
+        height: 48px;
+        width: 224px;
+        cursor: pointer;
+        display: inline-block;
+        margin-top: 14px;
+        margin-left: 10%;
+    }
+
+    #mainPage-Logo:hover{
+        background: url(http://spring.io/img/spring-logo-3b6f842fa77c3bea3bac17dbce36a101.png) -1px -46px no-repeat;;
+
+    }
+
+    .mainPage-MenuEl{
+        display: inline-block;
+        padding: 24px 17px;
+    }
+
+    #mainPage-Menu{
+        display: inline-block;
+        height: 100%;
+        float: right;
+        margin: 0;
+        margin-right: 5%;
+    }
+
+    .mainPage-MenuEl a{
+        color: #eee;
+        text-decoration: none !important;
+    }
+
+.mainPage-MenuEl:hover{
+    background: #6db33f;
+}
+
+.mainPage-Input{
+    display: inline-block;
+    color: #B6C0A5; 
+    font-style: italic; 
+    background: #E0EFCA;
+    margin-left: 10px;
+}
+
+#mainPage-background{
+    background-image: url("homepage-bg-6e9a5496b3a9393ed5f08a55b9a9a328.jpg");
+    padding: 0px;
+    margin-top: 0px;
+    width:100%;
+    height: auto;
+}
+
+#mainPage-foreground{
+    margin-top: 80px;
+    background: url(http://spring.io/img/mobile-leaf-watermark-3405b4ec5cee6de62d891c62d937f0fe.png) no-repeat;
+    background-size: 150px auto;
+    width: 150px;
+    height: 150px;
+    margin-left: 43%;
+}
+
+#mainPage-Title{
+    border-left: 15px solid #34302d;
+    border-right: 15px solid #34302d;
+    width: 450px;
+    color: #fff;
+    background-color: #34302d;
+    margin-top: 100px;
+    margin-left: 31%;
+    font-size: xx-large;
+    font-style: inherit;
+}
+
+#mainPage-subTitle{
+    border-left: 15px solid #34302d;
+    border-right: 15px solid #34302d;
+    color: #fff;
+    background-color: #34302d;
+    width: 620px;
+    margin-left: 25%;
+    font-size: x-large;
+}
+
+
+.mainPage-search{
+    font-size: 22px;
+
+
+.mainPage-search:hover{
+    text-shadow: 0 0 10px #6db33f;
+}
+
+    @media screen and (max-width: 1000px) {
+        #mainPage-subTitle{
+            width: 100px;
+            background-color: green;
+        }
+    }
+
+    @media screen and (max-width: 1050px) {
+        #mainPage-Logo{
+            margin-left: 5%;
+        }
+        #mainPage-subTitle{
+            margin-right: 2%;
+        }
+    }
+
+    @media screen and (max-width: 990px) {
+        #nav{
+            height: 144px;
+        }
+
+        #mainPage-Logo{
+            margin-left: 40%;
+        }
+    }
+
+    @media screen and (max-width: 700px) {
+        #mainPage-Input{
+            display: block;
+            border-left: 100%;
+        }
+    }
+
+</style>
+<div id="nav">
+    <div id="nav-content">
+        <div id="mainPage-Logo"></div>
+        <ul id="mainPage-Menu">
+            <li class="mainPage-MenuEl"><a href="#">MY MUSIC</a></li>
+            <li class="mainPage-MenuEl"><a href="#"></a>GENRES</li>
+            <li class="mainPage-MenuEl"><a href="#">LYRICS</a></li>
+            <li class="mainPage-MenuEl"><a href="#">FEED</a></li>
+            <form class="mainPage-Input" action="" method="get">
+                <input name="s" placeholder="Искать здесь..." type="search">
+            </form>
+            <span class="mainPage-search"><i class="fa fa-search" aria-hidden="true"></i></span>
+        </ul>
+
+    </div> 
+</div>
+
+<div id="mainPage-background">
+    <div id="mainPage-foreground"></div>
+    <h2 id="mainPage-Title">
+        Let's build a better Enterprise.
+    </h2>
+    <p id="mainPage-subTitle">
+        Spring helps development teams everywhere build simple, portable,  fast and flexible JVM-based systems and applications.
+    </p>
+</div>
+
+<link href="mainPage.css" rel="stylesheet">
+
+</body>
+</html>

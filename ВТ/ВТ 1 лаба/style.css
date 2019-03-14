@@ -1,0 +1,152 @@
+        .nav{
+			height: 100px;
+			background-image: url(https://millionstatusov.ru/pic/statpic/all/58e5ef4cedd33.jpg)	
+		}
+
+		.nav-content{
+			margin-left: 10px;		
+
+            grid-template-areas: "logo" "menu" "search";
+			display: grid;
+			align-items: center;
+			grid-column-gap: 8%;
+		    grid-template-columns: 1fr 7fr 2fr;
+		    margin-top: 0px;
+		}
+
+	
+        .logo{
+ 			background-color: white;
+        	width: 100px;
+        	height: 100px;
+        	margin-bottom: 10px;
+        	animation: turning 3s infinite;
+        }
+
+        .logo2{
+ 			background-color: #F5FCB9;
+ 			margin-left: 10px;
+ 			padding-top: 10px;
+        	width: 80px;
+        	height: 80px;
+        	margin-bottom: 10px;
+        	animation: turning 3s infinite;
+        }
+
+        .logo3{
+ 			background-color: #E4F070;
+ 			margin-left: 10px;
+ 			padding-top: 10px;
+        	width: 60px;
+        	height: 60px;
+        	margin-bottom: 10px;
+        	animation: turning 3s infinite;
+        }
+
+        .logo4{
+ 			background-color: #DDF033;
+ 			margin-left:10px;
+ 			padding-top: 10px;
+        	width: 40px;
+        	height: 40px;
+        	margin-bottom: 10px;
+        	animation: turning 3s infinite;
+        }
+
+
+        .menu{
+        	margin-right: 5%;
+        	display: grid;
+        	margin-top: 0px;
+
+        	grid-template-columns: repeat(4, 1fr);
+        	grid-column-gap: 3%;
+        	grid-row-gap: 10px;
+        	list-style-type: none;
+
+        }
+
+        .subMenu{
+        	height: 80px;
+        	background-color: #A9C6F6;
+        	border-radius: 20px;
+
+        }
+
+        .subMenu p{
+        	text-align: center;
+        	margin-top: 30px;
+        	
+        }
+
+        .subMenu:hover{
+        	background-color: #E6F086;
+        	cursor: pointer;
+
+        }
+
+        .subMenu:{
+
+        }
+                 
+        .search-icon{
+        	font-size: 22px;
+        	margin-right: 15px;
+
+        }
+
+        .search-icon:hover{
+        	text-shadow: 0 0 10px #6db33f;
+        	cursor: pointer;
+        }
+
+        .search-area{
+        	display: grid;
+        	grid-template-columns: 6fr 1fr;
+        	grid-column-gap:1%;
+        }
+
+        .mainBody-border
+        {
+        	height: 1000px;
+        	width: 100%;
+        	background-color: #A1DCE8;  
+
+
+        }
+        .mainBody{
+        	height: 1000px;
+        	width: 98%;
+        	background-color: white;
+        	margin-left: 1%;
+        }
+
+        body, html{
+           margin: 0px 0px;
+        }
+
+
+
+        @keyframes turning{
+            0%{
+                border-radius: 0 0 0 0;
+                transform: rotate(0deg);
+            }
+            25%{
+                border-radius: 50% 0 0 0;
+                transform: rotate(45deg);
+            }
+            50%{
+                border-radius: 50% 50% 0 0;
+                transform: rotate(90deg);
+
+            }
+            75%{
+                border-radius: 50% 50% 50% 0;
+                transform: rotate(45deg);
+            }
+            100%{
+                border-radius: 50% 50% 50% 50%;
+                transform: rotate(0deg);
+            }
+        }

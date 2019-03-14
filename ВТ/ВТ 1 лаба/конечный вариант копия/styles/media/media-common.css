@@ -1,0 +1,93 @@
+@media screen and (max-width: 750px){
+ 	
+
+	.search-icon{
+	    display: none;
+	}
+
+
+	.input-search input{
+		width: 100%;
+	}
+
+	.submenu > .music-icon-with-subMenu:hover > .genres-submenu {
+   		display: none;
+	}
+	
+ }
+
+ @media screen and (max-width: 1050px){
+
+	.music-icon i{
+		font-size: 30px;
+	}
+
+	.music-icon-with-subMenu i{
+		font-size: 30px;
+	}
+	
+	.menu{
+		grid-column-gap: 3%;
+	}
+
+
+	.header{
+		grid-column-gap: 3%;
+		height: 90px;
+	}
+
+
+
+	.submenu{
+		height: 90px;
+	}
+
+	.genres-submenu{
+		height: 90px;
+	}
+
+	.mainbody{
+		margin-top: 90px;
+	}
+
+ }
+
+ @media screen and (max-width: 1150px){
+	.header{
+		grid-template-columns: 1fr 5fr 5fr;
+
+	}
+
+	.search-icon{
+		width: 20px
+	}
+
+	.input-search input{
+		width: 80%;
+	}
+ }
+
+
+@media screen and (max-width: 850px){
+	.logo{
+		display: none;
+	}
+	.header{
+		grid-template-columns: 1fr 1fr;
+	}
+}
+
+ @media screen and (max-width: 600px){
+	.menu{
+		grid-template-columns: 1fr 1fr 1fr;
+		grid-template-rows: repeat(2, 1fr)
+	}
+	.header{
+		height: 200px;
+	}
+	.mainbody{
+		margin-top: 200px;
+	}
+ }
+
+

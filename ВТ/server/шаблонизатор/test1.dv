@@ -1,0 +1,16 @@
+<?php
+
+
+
+$dynamic_vars_rus['name_1'] = 'Том';
+$dynamic_vars_rus['name_2'] = 'Джон';
+$dynamic_vars_rus['name_3'] = 'Дэн';
+
+$dynamic_vars_en['name_1'] = 'Tom';
+$dynamic_vars_en['name_2'] = 'Jhon';
+$dynamic_vars_en['name_3'] = 'Dan';
+
+
+
+
+

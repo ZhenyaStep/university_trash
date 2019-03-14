@@ -1,0 +1,24 @@
+﻿<Window x:Class="UDP_test_try3.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:UDP_test_try3"
+        mc:Ignorable="d"
+        Title="UDP Test" Height="350" Width="350" Closing="Window_Closing" Background="#FFD8D4F9">
+    <Grid>
+    <Grid.RowDefinitions>
+      <RowDefinition Height="0.15*"/>
+      <RowDefinition Height="0.85*"/>
+    </Grid.RowDefinitions>
+    <Grid Grid.Row="0">
+      <Grid.ColumnDefinitions>
+        <ColumnDefinition Width="0.7*"/>
+        <ColumnDefinition Width="0.3*"/>
+      </Grid.ColumnDefinitions>
+      <TextBox x:Name="IPAddrTB" Grid.Column="0" Width="Auto" VerticalAlignment="Center" Margin="10" TextWrapping="NoWrap" Text="192.168.100."/>
+      <Button x:Name="StartBtn" Grid.Column="1" Content="Start Test" Margin="5" VerticalAlignment="Center" Click="button_Click"/>
+    </Grid>
+    <ListBox x:Name="DoneLB" Grid.Row="1" Margin="10"/>
+  </Grid>
+</Window>

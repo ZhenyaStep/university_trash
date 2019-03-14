@@ -1,0 +1,49 @@
+body{
+	margin: 0px 0px;
+}
+
+.pageBox{
+	background-color: lightblue;
+	height: 1000px;
+	width: 100%;
+	background-image: url(http://bipbap.ru/wp-content/uploads/2017/04/leto_derevo_nebo_peyzazh_dom_derevya_domik_priroda_3000x2000.jpg)
+}
+
+.nav{
+	height: 100px;
+	background-color: blue;
+	width: 100%;
+	display: grid;
+	grid-template-columns: 5fr 1fr;
+	
+	
+}
+
+.menu{
+	display: grid;
+	grid-area: 
+	grid-template-columns: repeat(4, 1fr);
+
+
+
+}
+
+.subMenu{
+	//background-color: darkblue;
+	
+}
+
+.logo{
+	background-color: red;
+	width: 40px;
+	height: 40px;
+}
+
+.subMenu:hover{
+	background-color: yellow;
+	cursor: pointer;
+}
+
+
+
+

@@ -1,0 +1,131 @@
+.track-list{
+	width: 90%;
+	height: 100%;
+	background-color: white;
+	margin-left: 5%;
+	margin-top: 5%;
+	border-radius: 5%;
+}
+
+.track{
+	display: inline-block;
+	height: 6vh;
+	width: 70%;
+	margin-left: 15%;
+	margin-top: 2vh;
+	border-top: 4px solid lightblue;
+	border-bottom: 4px solid lightblue;
+	border-radius: 20%;
+	border-right: 2px solid orange;
+	border-left: 2px solid orange;
+
+}
+
+.track-name-author{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	font-size: 2.5vh;
+	margin-top: 0.3vw;
+}
+
+
+
+.track-right-panel{
+	font-size: 2.5vh;
+	overflow: hidden;
+	text-align: right;
+}
+
+.track-info{
+	font-size: 20px;
+	display: grid;
+	grid-template-columns: 2fr 2fr;
+	text-align: center;
+}
+
+.track-author{
+	display: inline-block;
+	overflow: hidden;
+}
+
+.track-author p{
+	overflow: hidden;
+}
+
+.track-name{
+	display: inline-block;
+	overflow: hidden;
+}
+
+.track-duration{
+	display: inline-block;
+	
+}
+
+.track-start{
+	display: inline-block;
+	margin-left: 0.8vw;
+}
+
+
+.track-start i:hover{
+	color: orange;
+	cursor: pointer;
+}
+
+.track-delete i:hover{
+	color: orange;
+	cursor: pointer;
+}
+
+.track-delete{
+	display: inline-block;
+	margin-top: 0.3vw;
+	margin-right: 0.8vw;
+}
+
+
+.myMusic-search-panel{
+	margin-top: 20px;
+	height: 60px;
+	width: 40vw;
+	background-color: white;
+	margin-right: 20vw;
+	margin-left: 15vw;
+	border: 3px solid #F0A627;
+	background-color: black;
+}
+
+
+.myMusic-search-input{
+	margin-left: 6vw;
+
+}
+
+.myMusic-search-input input{
+	width: 24vw;
+
+}
+
+.myMusic-search-icon{
+	margin-left: 1vw;
+}
+
+.myMusic-search-icon i{
+	font-size: 30px;
+	margin-top: 8px;
+	color: white;
+}
+
+.myMusic-search-icon i:hover{
+	text-shadow: 0 0 15px #FFA303;
+	cursor: pointer;
+}
+
+
+@media screen and (min-width: 1000px){
+	.track-list{
+		width: 70%;
+		margin-left: 15%;
+	}
+}

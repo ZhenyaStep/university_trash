@@ -1,0 +1,79 @@
+.work-field{
+//	overflow: hidden;
+	overflow: hidden;
+}
+
+.lyrics-field{
+	height: 1000px;
+	overflow: auto;
+	background-color: white;
+	width: 80%;
+	margin-right: 10%;
+	margin-left: 10%;
+	margin-top: 15px;	
+	border: 2px solid black;
+}
+
+.lyrics-search-panel{
+	margin-top: 20px;
+	height: 60px;
+	width: 40vw;
+	background-color: white;
+	margin-right: 20vw;
+	margin-left: 15vw;
+	border: 3px solid #F0A627;
+	background-color: black;
+}
+
+
+.lyrics-search-input{
+	margin-left: 6vw;
+
+}
+
+.lyrics-search-input input{
+	width: 24vw;
+
+}
+
+.lyrics-search-icon{
+	margin-left: 1vw;
+}
+
+.lyrics-search-icon i{
+	font-size: 30px;
+	margin-top: 8px;
+	color: white;
+}
+
+.lyrics-search-icon i:hover{
+	text-shadow: 0 0 15px #FFA303;
+	cursor: pointer;
+}
+
+.lyrics-name{
+	margin-top: 8%;
+	width: 100%;
+	height: 60px;
+	text-align: center;
+	font-style: italic;
+}
+
+.lyrics-text{
+	//background-color: red;
+	width: 98%;
+	height: 100%;
+	margin-left: 1%;
+	margin-top: 5%;
+
+}
+
+.lyrics-text textarea{
+	margin-left: 5px;
+	margin-right: 5px;
+	font-style: italic;
+	font-size: 2vw;
+	height: 1000px;
+	width: 100%;
+}
+

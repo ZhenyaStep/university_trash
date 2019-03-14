@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	
+  	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+   	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap-theme.min.css"> 
+  	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script> 
+	<link rel="stylesheet" href="https://	cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+    <link rel="stylesheet" href="styles/common.css">
+    <link rel="stylesheet" href="styles/my-music.css">
+    <link rel="stylesheet" href="styles/media/media-common.css">
+
+	<title>Document</title>
+</head>
+<body>
+	<div class="container">
+		<div class="header">
+			<div class="logo"></div>
+			<div class="menu">
+				<div class="submenu submenu-cur-page">
+					<a href="my-music.html">
+						<div class="music-icon">
+							<i class="glyphicon glyphicon-music" aria-hidden="true"></i>
+							<p>MY MUSIC</p>
+						</div>
+					</a>
+				</div>
+				<div class="submenu">
+					<a href="genres.html">
+						<div class="music-icon-with-subMenu">
+							<div>
+								<i class="glyphicon glyphicon-music" aria-hidden="true"></i>
+								<p>GENRES</p>
+							</div>
+							<ul class="genres-submenu">
+         	  					<li><a href="google.com">ROCK</a></li>
+            					<li><a href="google.com">POP</a></li>
+            					<li><a href="google.com">CLASSIC</a></li>
+            					<li><a href="google.com">RnB</a></li>
+            					<li><a href="google.com">COUNTRY</a></li>
+            					<li><a href="google.com">DUBSTEP</a></li>
+            					<li><a href="google.com">CLUBMUSIC</a></li>
+        					</ul>
+						</div>
+					</a>
+				</div>
+				<div class="submenu">
+					<a href="lyrics.html">
+						<div class="music-icon">
+							<i class="glyphicon glyphicon-music" aria-hidden="true"></i>
+							<p>LYRICS</p>
+						</div>
+					</a>
+				</div>
+				<div class="submenu">
+					<a href="feed.html">
+						<div class="music-icon">
+							<i class="glyphicon glyphicon-music" aria-hidden="true"></i>
+							<p>FEED</p>
+						</div>
+					</a>
+				</div>
+				<div class="submenu">
+					<a href="news.html">
+						<div class="music-icon">
+							<i class="glyphicon glyphicon-music" aria-hidden="true"></i>
+							<p>NEWS</p>
+						</div>
+					</a>
+				</div>
+		 	</div>
+
+		 	<div class="search-area">
+		 		<form class="input-search" action="" method="get">
+					<input name="s" placeholder="Искать здесь..." type="search"></input>
+				</form>
+				<div class="search-icon">
+					<i class="fa fa-search" aria-hidden="true"></i>
+				</div>
+		 	</div>
+		</div>	
+		<div class="mainbody">
+			<div class="work-field">
+				<div class="myMusic-search-panel">
+					<span class="myMusic-search-input">
+						<input type="text">
+
+					</span>
+					<span class="myMusic-search-icon">
+						<i class="fa fa-search" aria-hidden="true"></i>
+					</span>
+				</div>
+				<div class="track-list">
+					<div class="track">
+						<div class="track-info">
+							<div class="track-name-author">
+								<p class="track-author">Шышов
+								</p>
+								<p class="track-name">задает вопросы</p>
+							</div>
+							<div class="track-right-panel">
+								<p class="track-duration">infinity</p>
+								<div class="track-start">
+									<i class="glyphicon glyphicon-play-circle" aria-hidden="true"></i>
+								</div>
+								<div class="track-delete">
+									<i class="glyphicon glyphicon-remove"
+									aria-hidden="true"></i>
+								</div>
+							</div>						
+						</div>
+					</div>
+					
+					<div class="track">
+						<div class="track-info">
+							<div class="track-name-author">
+								<p class="track-author">Eminem
+								</p>
+								<p class="track-name">Believe</p>
+							</div>
+							<div class="track-right-panel">
+								<p class="track-duration">5:15</p>
+								<div class="track-start">
+									<i class="glyphicon glyphicon-play-circle" aria-hidden="true"></i>
+								</div>
+								<div class="track-delete">
+									<i class="glyphicon glyphicon-remove"
+									aria-hidden="true"></i>
+								</div>
+							</div>						
+						</div>
+					</div>
+
+					<div class="track">
+						<div class="track-info">
+							<div class="track-name-author">
+								<p class="track-author">Skillet
+								</p>
+								<p class="track-name">Monser</p>
+							</div>
+							<div class="track-right-panel">
+								<p class="track-duration">4:03</p>
+								<div class="track-start">
+									<i class="glyphicon glyphicon-play-circle" aria-hidden="true"></i>
+								</div>
+								<div class="track-delete">
+									<i class="glyphicon glyphicon-remove"
+									aria-hidden="true"></i>
+								</div>
+							</div>						
+						</div>
+					</div>
+				</div>
+			</div>
+			<div id="track-box"></div>
+		</div>	
+
+	</div>
+</body>
+</html>

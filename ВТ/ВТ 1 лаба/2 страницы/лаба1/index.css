@@ -1,0 +1,211 @@
+body{
+	margin: 0px 0px;
+}
+
+.logo{
+	background-image: url(http://cliparts101.com/files/304/A9CDC3E0255DDB8FE7C8186B4FA1448C/compact_disk_04.png);
+	background-size: 80px 80px;
+	border-radius: 42px;
+	width: 80px;
+	height: 80px;
+	animation: turning 1s forwards infinite;
+	display: inline-block;
+	margin-left: 30px
+}
+
+.submenu{
+	height: 100px;
+}
+
+.music-icon i{
+	font-size: 50px;
+	color: white;
+	background-color: none;
+	text-align: center;
+}
+
+.container{
+	width: 100%;
+	margin: 0px 0px;
+	padding: 0px 0px;
+}
+
+.header{
+    background-image: url(temnye-tona-abstrakciya-3d.jpg);
+	width: 100%;
+	height: 110px;
+	display: grid;
+	grid-template-columns: 1fr 1fr 2fr;
+	grid-column-gap: 10%;
+	margin-bottom: 4px;
+}
+
+
+.music-icon {
+	display: grid;
+	grid-template-rows: 1fr 1fr;
+	grid-row-gap: 10px 
+}
+
+.menu{
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	grid-column-gap: 4%;
+}
+
+.input-search{
+	display: inline-block;
+
+}
+
+.search-icon{
+	width: 50px;
+	margin-left: 10px;
+	display: inline-block;
+    font-size: 30px;
+	color: white;
+	background-color: none;
+
+}
+
+.search-icon{
+	
+
+}
+
+.submenu:hover{
+	background-color: orange;
+	cursor: pointer;
+}
+
+
+.music-icon a{
+	text-align: center;
+    color: #B9EFC3;
+	width: 70px;
+}
+
+.mainbody{
+	background-image: url(https://st2.depositphotos.com/4966263/10721/v/950/depositphotos_107218730-stock-illustration-music-seamless-background.jpg);
+	width: 100%;
+	height: 1000px;
+}
+
+.music-icon-with-subMenu{
+    display: grid;
+	grid-template-columns: 1fr 1fr;
+}
+
+.music-icon-with-subMenu div{
+    display: grid;
+	grid-template-rows: 1fr 1fr;
+	grid-row-gap: 10px;
+}
+
+
+.music-icon-with-subMenu a {
+	text-align: center;
+    color: #B9EFC3;
+	width: 70px;
+}
+
+.music-icon-with-subMenu i {
+	font-size: 50px;
+	color: white;
+	background-color: none;
+	text-align: center;
+}
+
+.genres-submenu {
+    display: none;
+    width: 100px;
+    display: none;
+    background-color: black;
+    border: 1px solid orange;
+    list-style-type: none;
+}
+
+
+
+
+.submenu > .music-icon-with-subMenu:hover > .genres-submenu {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.search-icon:hover{
+	text-shadow: 0 0 10px #FFA303;
+	cursor: pointer;
+}
+
+
+
+.work-field{
+	width: 70%;
+	height: 1000px;
+	margin-left: 15%;
+	margin-right: 15%;
+	background-color: #E6DCCA;
+}
+
+.track-box{
+
+}
+
+
+@keyframes turning{
+            0%{
+                transform: rotate(0deg);
+            }
+            33%{
+                transform: rotate(90deg);
+            }
+            66%{
+                transform: rotate(270deg);
+
+            }
+            100%{
+                transform: rotate(355deg);
+            }
+        }
+       
+
+
+ @media screen and (max-width: 833px)
+ {
+	.input-search input{
+		width: 130px;
+	}
+ }
+
+  @media screen and (max-width: 751px)
+ {
+ 	.header{
+		grid-column-gap: 4%;
+	}
+	.input-search{
+		margin-left: 30px
+	}
+
+ }
+
+  @media screen and (max-width: 693px)
+ {
+ 	.logo{
+ 		display: none;
+ 	}
+
+ 	.menu{
+ 		margin-left: 20px;
+ 	}
+
+ 	.input-search{
+		margin-left: 20px
+	}
+
+	.header{
+		grid-template-columns: 1fr 1fr;
+	}
+
+ 	
+ }
